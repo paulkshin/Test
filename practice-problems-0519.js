@@ -37,3 +37,16 @@ function profitableGamble(prob, prize, pay) {
         return false;
     }
 }
+
+// Create a function that takes an array of numbers and returns the smallest number in the set.
+
+function findSmallestNum(arr) {
+    return Math.min(...arr);
+}
+
+// Create a function that counts the number of syllables a word has. 
+// Each syllable is separated with a dash -.
+
+function numberSyllables(word) {
+    return word.split("-").length;
+}
