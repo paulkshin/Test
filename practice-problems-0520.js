@@ -26,3 +26,15 @@ function sum(a, b) {
         return false;
     }
 }
+
+// Write a function that takes two integers (hours, minutes) and converts them into seconds.
+
+function totalSeconds(hours, minutes) {
+    return (hours * 3600) + (minutes * 60);
+}
+
+// There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+function remainder(a, b) {
+    return a % b;
+}
