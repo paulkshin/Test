@@ -38,3 +38,14 @@ function totalSeconds(hours, minutes) {
 function remainder(a, b) {
     return a % b;
 }
+
+// Create a function that takes an integer and returns true if it's divisible by 100, otherwise return false.
+
+function divisible(a) {
+    if (a % 100 === 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
