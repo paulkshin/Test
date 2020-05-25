@@ -37,3 +37,14 @@ let b = arr[1]
 console.log(a);
 console.log(b);
 
+// Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+function divisibleByFive(n) {
+	if (n % 5 === 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
