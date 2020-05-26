@@ -33,3 +33,14 @@ function empty(str) {
         return false;
     }
 }
+
+// Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
+
+function evenOrOdd(num) {
+    if (num % 2 === 0) {
+        return "even";
+    }
+    else {
+        return "odd";
+    }
+}
