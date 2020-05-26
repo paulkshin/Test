@@ -22,3 +22,14 @@ function concatName(firstName, lastName) {
     const str2 = lastName;
     return str2.concat(", ", str1);
 }
+
+// Create a function that returns true if a string is empty and false otherwise.
+
+function empty(str) {
+    if (str === "") {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
