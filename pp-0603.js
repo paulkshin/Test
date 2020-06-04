@@ -11,3 +11,9 @@ function isOdd(num) {
 function lastItem(arr) {
     return arr.pop();
 }
+
+// Create a function that takes an angle in radians and converts it into degrees.
+
+function toDegree(radian) {
+	return Math.round(radian * (180 / Math.PI));
+}
