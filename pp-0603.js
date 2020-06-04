@@ -17,3 +17,10 @@ function lastItem(arr) {
 function toDegree(radian) {
 	return Math.round(radian * (180 / Math.PI));
 }
+
+// Create a function that takes an equation (e.g. "1+1"), and returns the answer.
+
+function equation(s) {
+	return eval(s);
+}
+
