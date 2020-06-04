@@ -5,3 +5,9 @@
 function isOdd(num) {
 	return num % 2 != 0;
 }
+
+// Create a function that accepts an array and returns the last item in the array.
+
+function lastItem(arr) {
+    return arr.pop();
+}
