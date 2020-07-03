@@ -48,3 +48,15 @@ function isLastCharacterN(word) {
 function findIndex(arr, str) {
   return arr.indexOf(str);
 }
+
+// Create a function to concatenate two integer arrays.
+
+function concat(arr1, arr2) {
+  return arr1.concat(arr2);
+}
+
+// Create a function that returns the total number of parameters passed in.
+
+function numberArgs(/* fill-in */) {
+  return arguments.length;
+}
